@@ -35,7 +35,7 @@ class Instructions:
     def __init__(self, item, s, d):
         self.number_of_item = int(item)
         self.source = int(s)
-        self.destination = int (d)
+        self.destination = int(d)
     def play(self, stacks):
         source = stacks[self.source - 1]
         to_move = source[:self.number_of_item]
